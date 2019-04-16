@@ -1,0 +1,90 @@
+body {
+    background-image: url(img/background.png);
+}
+
+.header {
+    width: 1280px;
+    height: 323px;
+    background-image: url(img/header-bg.png);
+    position: relative;
+}
+
+.header-comp {
+    position: absolute;
+    width: 458px;
+    height: 214px;
+    left: 50px;
+}
+
+.header h1 {
+    width: 367px;
+    height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.header-ul {
+    width: 422px;
+    height: 127px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-image: url(img/check_icon.png);
+}
+
+.header-img {
+    position: absolute;
+    top: 50px;
+    left: 761px;
+}
+
+.main {
+    background-image: url(img/bg.png);
+    width: 1280px;
+    height: 2863px; 
+}
+
+.first-section-div {
+    width: 653px;
+    height: 201px;
+    position: absolute;
+    left: 50px;
+}
+
+.first-section-div h4 {
+    width: 254px;
+    height: 28px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.first-section-div p {
+    width: 649px;
+    height: 63px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.first-section-video {
+    width: 430px;
+    height: 245px;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+}
+
+.first-section {
+    position: relative;
+}
