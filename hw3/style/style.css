@@ -1,0 +1,562 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../img/background.png);
+}
+
+.container {
+    width: 1280px;
+    border: 1px solid black;
+}
+
+.header {
+    width: 1280px;
+    min-height: 323px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-image: url(../img/header-bg.png);
+}
+
+.header-comp {
+    float: left;
+    max-width: 450px;
+    min-height: 127px;
+}
+
+.main-title {
+    min-height: 44px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.header-ul {
+    text-align: left;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    list-style-image: url(../img/check_icon.png);
+}
+
+.header-ul li {
+    position: relative;
+}
+
+.header-img {
+    display: block;
+    background-color: #ffffff;
+    float: right;
+}
+
+.main {
+    background-image: url(../img/bg.png);
+    width: 1280px;
+    height: 2550px;
+}
+
+.first-section-div {
+    max-width: 655px;
+    min-height: 201px;
+    position: absolute;
+    left: 50px;
+}
+
+.first-section {
+    min-height: 323px;
+}
+
+.first-section-title {
+    display: block;
+    margin: 49px 0 24px 0;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+}
+
+.first-section-div p {
+    min-height: 85px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.first-section-video {
+    position: absolute;
+    top: 50px;
+    left: 800px;
+}
+
+.first-section {
+    position: relative;
+}
+
+.dignity-section {
+    width: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.dignity-section:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dignity-title {
+    display: block;
+    margin: 0 0 24px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+}
+
+.dignity-ul {
+    max-width: 540px;
+    min-height: 260px;
+    margin: 0;
+    padding: 0 0 0 46px;
+    list-style-type: none;
+    float: left;
+}
+
+.dignity-ul:nth-child(3) {
+    float: right;
+}
+
+.dignity-ul li {
+    margin: 0 0 40px 0;
+    position: relative;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dignity-ul li:nth-child(2)>.dignity-ul li:nth-child(3), .dignity-ul li:nth-child(3)>.dignity-ul li:nth-child(3) {
+    margin: 0;
+}
+
+.dignity-ul li:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 4px;
+    left: -46px;
+}
+
+.scrinshots-section {
+    padding: 50px;
+    display: block;
+    margin: 0 0 24px 0;
+    text-align: center;
+    background-image: url(../img/img-pic.png);
+    min-height: 487px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.scrinshots-title {
+    min-width: 138px;
+    min-height: 22px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.scrinshots {
+    float: left;
+    display: inline-flex;
+    max-width: 574px;
+    min-height: 150px;
+    margin: 0;
+    margin-top: 35px;
+    margin-right: 16px;
+}
+
+.scrinshots img {
+    margin-top: 6px;
+}
+
+.scrinshots:nth-child(3), .scrinshots:nth-child(4) {
+    margin-top: 25px;
+}
+
+.scrinshots-fig-title {
+    width: 310px;
+    height: 23px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.scrinshots-figcaption {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.scrinshots-text {
+    max-width: 360px;
+    min-height: 108px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.review-div {
+    min-height: 266px;
+}
+
+.review-section {
+    display: block;
+    margin: 0 0 50px 0;
+    text-align: center;
+    padding: 50px;
+}
+
+.review-title {
+    width: 138px;
+    height: 22px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.review-article {
+    display: inline-flex;
+    max-width: 554px;
+    min-height: 121px;
+    margin-top: 24px;
+    margin-right: 32px;
+}
+
+.quote {
+    background-image: url(../img/bg_review.png);
+    width: 483px;
+    min-height: 121px;
+}
+
+.review-text {
+    max-width: 436px;
+    min-height: 64px;
+    color: #333333;
+    font-family: "Arial MT";
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 27px;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.quote blockquote {
+    min-width: 68px;
+    min-height: 10px;
+    color: #989898;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 15px;
+    margin-left: 27px;
+    text-align: left;
+}
+
+.buy-it-now-section {
+    background-image: url(../img/buy-bg.png);
+    min-height: 656px;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0;
+}
+
+.buy-title {
+    min-width: 137px;
+    min-height: 28px;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.container-for-blocks {
+    max-width: 990px;
+    margin-top: 29px;
+}
+
+.buy-block {
+    display: inline-block;
+    background-color: #445162;
+    overflow: hidden;
+}
+
+.buy-block:nth-child(1) {
+    width: 300px;
+    min-height: 306px;
+    margin-right: 40px;
+}
+
+.buy-block:nth-child(2) {
+    width: 300px;
+    min-height: 404px;
+}
+
+.buy-block:nth-child(3) {
+    width: 300px;
+    min-height: 499px;
+    margin-left: 40px;
+}
+
+.buy-block-title {
+    width: 90px;
+    min-height: 18px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 57px;
+}
+
+.price-div {
+    min-height: 71px;
+    background-color: white;
+}
+
+.price {
+    width: 87px;
+    height: 35px;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.buy-list {
+    min-width: 242px;
+    min-height: 86px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    list-style-position: inside;
+    line-height: 24px;
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 19px;
+}
+
+.buy-button {
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    min-width: 37px;
+    min-height: 13px;
+    color: #445161;
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.buy-button:hover {
+    cursor: pointer;
+}
+
+.buy-button:active {
+    background-color: grey;
+    color: #ffffff;
+}
+
+.contacts {
+    background-image: url(../img/bg-contacts.png);
+    min-height: 509px;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.contacts-title {
+    min-width: 117px;
+    min-height: 22px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#myForm {
+    float: left;
+    max-width: 500px;
+    min-height: 354px;
+    position: absolute;
+    left: 249px;
+    top: 106px;
+}
+
+#name, #email, #message {
+    display: inline-block;
+    width: 500px;
+    margin-top: 21px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#name, #email, #send-btn {
+    min-height: 40px;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
+    min-width: 80px;
+    height: 20px;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 18px;
+    font-weight: 400;
+    text-indent: 5px;
+}
+
+textarea::placeholder {
+    line-height: 40px;
+}
+
+#message {
+    min-height: 170px;
+}
+
+#send-btn {
+    margin-top: 21px;
+    width: 140px;
+}
+
+#send-btn {
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    width: 140px;
+    min-height: 40px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.info {
+    width: 290px;
+    position: absolute;
+    left: 794px;
+    top: 114px;
+}
+
+.skype, .mail-adress, .phone-number, .icq {
+    width: 165px;
+    min-height: 15px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-flex;
+    margin-top: 29px;
+    float: left;
+}
+
+.fa-skype, .fa-at, .fa-phone {
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.fa-phone {
+    margin-left: 0;
+}
+
+.icq:before {
+    content: url(../img/icq_icon.png);
+    margin-right: 5px;
+}
+
+.links {
+    margin-top: 37px;
+    float: left;
+    padding: 0;
+}
+
+.links li {
+    list-style: none;
+    display: inline-flex;
+    width: 42px;
+    min-height: 42px;
+    border-radius: 50px;
+    background-color: #fff;
+    float: left;
+    margin-left: 6px;
+}
+
+.without-margin-left {
+    margin-left: 0;
+}
+
+.links li a {
+    color: #445161;
+    margin-top: 14px;
+}
+
+.copyright {
+    min-height: 20px;
+    text-align: center;
+}
+
+.copyright-span {
+    min-width: 284px;
+    min-height: 11px;
+    color: #445162;
+    font-family: "Arial MT";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
