@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    margin: 0 auto;
+}
+
+.container {
+    width: 1920px;
+    height: 6970px;
+    background: url(../img/photo.png);
+    background-repeat: no-repeat;
+    background-color: #f4f5f8;
+    border: 1px solid black;
+}
+
+.opacity-container {
+    background: rgba(0, 0, 0, 0.7);
+    height: 1024px;
+    display: -webkit-box;
+}
+
+.logo {
+    margin-left: 376px;
+    margin-top: 40px;
+}
+
+nav {
+    margin: 0;
+    margin-top: 40px;
+    height: 40px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin-left: 219px;
+    margin-right: 0;
+    margin-top: 21px;
+    padding: 0;
+}
+
+.menu li a {
+    margin: 0;
+    margin-left: 30px;
+    height: 11px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    height: 11px;
+    color: #c7b299;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.without-margin-left {
+    margin-left: 0 !important;
+}
+
+.icon {
+    margin-left: 63px;
+    margin-top: 55px;
+}
+
+.search-icon {
+    margin-left: 28px;
+    margin-top: 55px;
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.block {
+    max-width: 290px;
+    margin: 0;
+    display: inline-grid;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.block p {
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 19px;
+}
+
+.without-margin-left {
+    margin-left: 0;
+}
+
+.block-title {
+    color: #555555;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 29px;
+}
+
+.block-icon-web {
+    background: url(../img/icon.png);
+}
+
+.block-icon-dev {
+    background: url(../img/icon2.png);
+}
+
+.block-icon-cust {
+    background: url(../img/icon3.png);
+}
+
+.block-icon-mark {
+    background: url(../img/icon4.png);
+}
+
+.block-icon-web, .block-icon-dev, .block-icon-cust, .block-icon-mark {
+    width: 52px;
+    height: 49px;
+    background-repeat: no-repeat;
+}
+
+.line {
+    background: url(../img/line.png);
+    width: 70px;
+    height: 3px;
+    margin-top: 30px;
+}
+
+.line:hover {
+    background: url(../img/line-hover.png);
+    cursor: pointer;
+}
+
+.idea {
+    background: url(../img/section-two-bg.png);
+    min-height: 700px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.idea-title {
+    color: #555555;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 83px; 
+}
+
+.idea p {
+    max-width: 757px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.pic-div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
+    min-height: 482px;
+}
+
+.right-pic, .center-pic, .left-pic {
+    position: absolute;
+}
+
+.left-pic {
+    right: -157px;
+    top: 82px;
+}
+
+.center-pic {
+    z-index: 1;
+}
+
+.right-pic {
+    left: -155px;
+    top: 82px;
+}
+
+.purchase {
+    background: url(../img/Purchase-bg.png);
+    min-height: 150px;
+}
+
